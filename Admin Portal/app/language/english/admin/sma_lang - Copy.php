@@ -1,6 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-
+/*
+ * Module: General Language File for common lang keys
+ * Language: English
+ *
+ * Last edited:
+ * 9th June 2017
+ *
+ * Package:
+ * Stock Manage Advance v3.0
+ *
+ * You can translate this file to your language.
+ * For instruction on new language setup, please visit the documentations.
+ * You also can share your language files by emailing to saleem@tecdiary.com
+ * Thank you
+ */
 
 /* --------------------- CUSTOM FIELDS ------------------------ */
 /*
@@ -23,12 +37,12 @@ $lang['pcf3']                           = "Product Custom Field 3";
 $lang['pcf4']                           = "Product Custom Field 4";
 $lang['pcf5']                           = "Product Custom Field 5";
 $lang['pcf6']                           = "Product Custom Field 6";
-$lang['ccf1']                           = "Student Custom Field 1";
-$lang['ccf2']                           = "Student Custom Field 2";
-$lang['ccf3']                           = "Student Custom Field 3";
-$lang['ccf4']                           = "Student Custom Field 4";
-$lang['ccf5']                           = "Student Custom Field 5";
-$lang['ccf6']                           = "Student Custom Field 6";
+$lang['ccf1']                           = "Customer Custom Field 1";
+$lang['ccf2']                           = "Customer Custom Field 2";
+$lang['ccf3']                           = "Customer Custom Field 3";
+$lang['ccf4']                           = "Customer Custom Field 4";
+$lang['ccf5']                           = "Customer Custom Field 5";
+$lang['ccf6']                           = "Customer Custom Field 6";
 $lang['scf1']                           = "Supplier Custom Field 1";
 $lang['scf2']                           = "Supplier Custom Field 2";
 $lang['scf3']                           = "Supplier Custom Field 3";
@@ -104,10 +118,10 @@ $lang['last_name']                          = "Last Name";
 $lang['confirm_password']                   = "Confirm Password";
 $lang['email']                              = "Email";
 $lang['phone']                              = "Phone";
-$lang['company']                            = "ID Token";
+$lang['company']                            = "Company";
 $lang['product_code']                       = "Product Code";
 $lang['product_name']                       = "Product Name";
-$lang['cname']                              = "Student Name";
+$lang['cname']                              = "Customer Name";
 $lang['barcode_symbology']                  = "Barcode Symbology";
 $lang['product_unit']                       = "Product Unit";
 $lang['product_price']                      = "Product Price";
@@ -133,9 +147,9 @@ $lang['print_labels']                       = "Print Labels";
 $lang['import_products']                    = "Import Products";
 $lang['update_price']                       = "Update Price";
 $lang['damage_products']                    = "Damage Product";
-$lang['sales']                              = "Issues";
-$lang['list_sales']                         = "List Issues";
-$lang['add_sale']                           = "Add Issue";
+$lang['sales']                              = "Sales";
+$lang['list_sales']                         = "List Sales";
+$lang['add_sale']                           = "Add Sale";
 $lang['deliveries']                         = "Deliveries";
 $lang['gift_cards']                         = "Gift Cards";
 $lang['quotes']                             = "Quotations";
@@ -154,8 +168,8 @@ $lang['list_users']                         = "List Users";
 $lang['new_user']                           = "Add User";
 $lang['list_billers']                       = "List Billers";
 $lang['add_biller']                         = "Add Biller";
-$lang['list_customers']                     = "List Students";
-$lang['add_customer']                       = "Add Student";
+$lang['list_customers']                     = "List Customers";
+$lang['add_customer']                       = "Add Customer";
 $lang['list_suppliers']                     = "List Suppliers";
 $lang['add_supplier']                       = "Add Supplier";
 $lang['settings']                           = "Settings";
@@ -163,7 +177,7 @@ $lang['system_settings']                    = "System Settings";
 $lang['change_logo']                        = "Change Logo";
 $lang['currencies']                         = "Currencies";
 $lang['attributes']                         = "Product Variants";
-$lang['customer_groups']                    = "Student Groups";
+$lang['customer_groups']                    = "Customer Groups";
 $lang['categories']                         = "Categories";
 $lang['subcategories']                      = "Sub Categories";
 $lang['tax_rates']                          = "Tax Rates";
@@ -177,13 +191,13 @@ $lang['warehouse_stock']                    = "Warehouse Stock Chart";
 $lang['product_quantity_alerts']            = "Product Quantity Alerts";
 $lang['product_expiry_alerts']              = "Product Expiry Alerts";
 $lang['products_report']                    = "Products Report";
-$lang['daily_sales']                        = "Daily Issues";
-$lang['monthly_sales']                      = "Monthly Issues";
-$lang['sales_report']                       = "Issues Report";
+$lang['daily_sales']                        = "Daily Sales";
+$lang['monthly_sales']                      = "Monthly Sales";
+$lang['sales_report']                       = "Sales Report";
 $lang['payments_report']                    = "Payments Report";
 $lang['profit_and_loss']                    = "Profit and/or Loss";
 $lang['purchases_report']                   = "Purchases Report";
-$lang['customers_report']                   = "Students Report";
+$lang['customers_report']                   = "Customers Report";
 $lang['suppliers_report']                   = "Suppliers Report";
 $lang['staff_report']                       = "Staff Report";
 $lang['your_ip']                            = "Your IP Address";
@@ -193,14 +207,14 @@ $lang['quick_links']                        = "Quick Links";
 $lang['date']                               = "Date";
 $lang['reference_no']                       = "Reference No";
 $lang['products']                           = "Products";
-$lang['customers']                          = "Students";
+$lang['customers']                          = "Customers";
 $lang['suppliers']                          = "Suppliers";
 $lang['users']                              = "Users";
 $lang['latest_five']                        = "Latest Five";
 $lang['total']                              = "Total";
 $lang['payment_status']                     = "Payment Status";
 $lang['paid']                               = "Paid";
-$lang['customer']                           = "Student";
+$lang['customer']                           = "Customer";
 $lang['status']                             = "Status";
 $lang['amount']                             = "Amount";
 $lang['supplier']                           = "Supplier";
@@ -239,7 +253,7 @@ $lang['r_u_sure']                           = 'Are you sure?';
 $lang['export_to_excel']                    = "Export to Excel file";
 $lang['export_to_pdf']                      = "Export to PDF file";
 $lang['image']                              = "Image";
-$lang['sale']                               = "Issue";
+$lang['sale']                               = "Sale";
 $lang['quote']                              = "Quotation";
 $lang['purchase']                           = "Purchase";
 $lang['transfer']                           = "Transfer";
@@ -336,11 +350,11 @@ $lang['tax_method']                         = "Tax Method";
 $lang['inclusive']                          = "Inclusive";
 $lang['exclusive']                          = "Exclusive";
 $lang['expiry']                             = "Expiry";
-$lang['customer_group']                     = "Student Group";
+$lang['customer_group']                     = "Customer Group";
 $lang['is_required']                        = "is required";
 $lang['form_action']                        = "Form Action";
-$lang['return_sales']                       = "Return Issues";
-$lang['list_return_sales']                  = "List Return Issues";
+$lang['return_sales']                       = "Return Sales";
+$lang['list_return_sales']                  = "List Return Sales";
 $lang['no_data_available']                  = "No data available";
 $lang['disabled_in_demo']                   = "We are sorry but this feature is disabled in demo.";
 $lang['payment_reference_no']               = "Payment Reference No";
@@ -370,9 +384,9 @@ $lang['order_by']                           = "Ordered by";
 $lang['updated_by']                         = "Updated by";
 $lang['update_at']                          = "Updated at";
 $lang['error_404']                          = "404 Page Not Found ";
-$lang['default_customer_group']             = "Default Student Group";
+$lang['default_customer_group']             = "Default Customer Group";
 $lang['pos_settings']                       = "POS Settings";
-$lang['pos_sales']                          = "POS Issues";
+$lang['pos_sales']                          = "POS Sales";
 $lang['seller']                             = "Seller";
 $lang['ip:']                                = "IP:";
 $lang['sp_tax']                             = "Sold Product Tax";
@@ -415,7 +429,7 @@ $lang['updates']                            = "Updates";
 $lang['update_available']                   = "New update available, please update now.";
 $lang['please_select_customer_warehouse']   = "Please select customer/warehouse";
 $lang['variants']                           = "Variants";
-$lang['add_sale_by_csv']                    = "Add Issue by CSV";
+$lang['add_sale_by_csv']                    = "Add Sale by CSV";
 $lang['categories_report']                  = "Categories Report";
 $lang['adjust_quantity']                    = "Adjust Quantity";
 $lang['quantity_adjustments']               = "Quantity Adjustments";
@@ -423,7 +437,7 @@ $lang['partial']                            = "Partial";
 $lang['unexpected_value']                   = "Unexpected value provided!";
 $lang['select_above']                       = "Please select above first";
 $lang['no_user_selected']                   = "No user selected, please select at least one user";
-$lang['sale_details']                       = "Issue Details";
+$lang['sale_details']                       = "Sale Details";
 $lang['due']                                = "Due";
 $lang['ordered']                            = "Ordered";
 $lang['profit']                             = "Profit";
@@ -450,7 +464,7 @@ $lang['amount_greater_than_deposit']        = "Amount is greater than customer d
 $lang['stamp_sign']                         = "Stamp &amp; Signature";
 $lang['product_option']                     = "Product Variant";
 $lang['Cheque']                             = "Cheque";
-$lang['sale_reference']                     = "Issue Reference";
+$lang['sale_reference']                     = "Sale Reference";
 $lang['surcharges']                         = "Surcharges";
 $lang['please_wait']                        = "Please wait...";
 $lang['list_expenses']                      = "List Expenses";
@@ -473,7 +487,7 @@ $lang['event_deleted']                      = "Event successfully deleted";
 $lang['event_color']                        = "Event Color";
 $lang['toggle_alignment']                   = "Toggle Alignment";
 $lang['images_location_tip']                = "The images should be uploaded in <strong>uploads</strong> folder.";
-$lang['this_sale']                          = "This Issue";
+$lang['this_sale']                          = "This Sale";
 $lang['return_ref']                         = "Return Reference";
 $lang['return_total']                       = "Total Return";
 $lang['daily_purchases']                    = "Daily Purchases";
@@ -507,13 +521,13 @@ $lang['slug']                               = "Slug";
 $lang['symbol']                             = "Symbol";
 $lang['packaging']                          = "Packing List";
 $lang['rack']                               = "Rack";
-$lang['staff_sales']                        = "Staff Issues";
-$lang['all_sales']                          = "All Issues";
+$lang['staff_sales']                        = "Staff Sales";
+$lang['all_sales']                          = "All Sales";
 $lang['call_back_heading']                  = "If you want to use social auth, your callback url should be as below";
 $lang['replace_xxxxxx_with_provider']       = "Please replace XXXXXX with provider i.e, Google, Facebook, Twitter etc";
 $lang['documentation_at']                   = "More info at";
 $lang['enable_config_file']                 = "You can enable/disable providers in the following config file";
-$lang['sales_x_delivered']                  = "Issues not delivered";
+$lang['sales_x_delivered']                  = "Sales not delivered";
 $lang['order_item']                         = "Order Item";
 $lang['update_status']                      = "Update Status";
 $lang['purchase_code']                      = "Purchase Code";
@@ -545,7 +559,7 @@ $lang['tax_report']                         = "Tax Report";
 
 /* ---------------------- Front End Settings ---------------------- */
 $lang['shop']                               = "Shop";
-$lang['shop_sales']                         = "Shop Issues";
+$lang['shop_sales']                         = "Shop Sales";
 $lang['front_end']                          = "Front End";
 $lang['site_offline']                       = "Site Offline";
 $lang['visit_us_later']                     = "Please visit us again in few days.";

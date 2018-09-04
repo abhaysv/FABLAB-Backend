@@ -10,7 +10,7 @@
     <p style="text-align:center;">&copy; <?= date('Y') . " " . $Settings->site_name; ?> (<a href="<?= base_url('documentation.pdf'); ?>" target="_blank">v<?= $Settings->version; ?></a>
         ) <?php if ($_SERVER["REMOTE_ADDR"] == '127.0.0.1') {
             echo ' - Page rendered in <strong>{elapsed_time}</strong> seconds';
-        } ?></p>
+        } ?> Developed By <a href="https://abhaysv.co.in/">Abhay SV</a></p>
 </footer>
 <?= '</div>'; ?>
 <div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>

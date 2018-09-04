@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
- * Module: Sales
+ * Module: Issues
  * Language: English
  *
  * Last edited:
@@ -16,32 +16,32 @@
  * Thank you
  */
 
-$lang['add_sale']                           = "Add Sale";
-$lang['edit_sale']                          = "Edit Sale";
-$lang['delete_sale']                        = "Delete Sale";
-$lang['delete_sales']                       = "Delete Sales";
-$lang['sale_added']                         = "Sale successfully added";
-$lang['sale_updated']                       = "Sale successfully updated";
-$lang['sale_deleted']                       = "Sale successfully deleted";
-$lang['sales_deleted']                      = "Sales successfully deleted";
+$lang['add_sale']                           = "Issue Item";
+$lang['edit_sale']                          = "Edit Issue";
+$lang['delete_sale']                        = "Delete Issue";
+$lang['delete_sales']                       = "Delete Issues";
+$lang['sale_added']                         = "Issue successfully added";
+$lang['sale_updated']                       = "Issue successfully updated";
+$lang['sale_deleted']                       = "Issue successfully deleted";
+$lang['sales_deleted']                      = "Issues successfully deleted";
 $lang['incorrect_gift_card']                = "Gift card number is incorrect or expired.";
 $lang['gift_card_not_for_customer']         = "Gift card number is not for this customer.";
 $lang['view_payments']                      = "View Payments";
 $lang['add_payment']                        = "Add Payment";
 $lang['add_delivery']                       = "Add Delivery";
-$lang['email_sale']                         = "Email Sale";
-$lang['return_sale']                        = "Return Sale";
-$lang['sale_status']                        = "Sale Status";
+$lang['email_sale']                         = "Email Issue";
+$lang['return_sale']                        = "Return Issue";
+$lang['sale_status']                        = "Issue Status";
 $lang['payment_term']                       = "Payment Term";
 $lang['payment_term_tip']                   = "Please type the number of days (integer) only";
-$lang['sale_note']                          = "Sale Note";
+$lang['sale_note']                          = "Issue Note";
 $lang['staff_note']                         = "Staff Note";
 $lang['serial_no']                          = "Serial No";
 $lang['product_option']                     = "Product Option";
 $lang['product_serial']                     = "Product Serial";
-$lang['list_sale']                          = "List Sale";
+$lang['list_sale']                          = "List Issue";
 $lang['do_reference_no']                    = "Delivery Reference No";
-$lang['sale_reference_no']                  = "Sale Reference No";
+$lang['sale_reference_no']                  = "Issue Reference No";
 $lang['edit_delivery']                      = "Edit Delivery";
 $lang['delete_delivery']                    = "Delete Delivery";
 $lang['delete_deliveries']                  = "Delete Deliveries";
@@ -78,21 +78,21 @@ $lang['balance']                            = "Balance";
 $lang['value']                              = "Value";
 $lang['new_gift_card']                      = "Add Gift Card";
 $lang['sell_gift_card']                     = "Sell Gift Card";
-$lang['view_sales_details']                 = "View Sale Details";
-$lang['sale_no']                            = "Sale Number";
+$lang['view_sales_details']                 = "View Issue Details";
+$lang['sale_no']                            = "Issue Number";
 $lang['payment_reference']                  = "Payment Reference";
 $lang['quantity_out_of_stock_for_%s']       = "The quantity is out of stock for %s";
 $lang['no_sale_selected']                   = "No sale selected. Please select at least one sale.";
 $lang['you_will_loss_sale_data']            = "You will loss current sale data. Do you want to proceed?";
-$lang['sale_status_x_competed']             = "Sale status is pending, you can add return sale for only completed sales.";
+$lang['sale_status_x_competed']             = "Issue status is pending, you can add return sale for only completed sales.";
 $lang['unselect_customer']                  = "De-select Customer";
 $lang['payment_status_not_paid']            = "Please be informed that this sale payment status is not paid.";
 $lang['paid_amount']                        = "Paid Amount";
 $lang['surcharges']                         = "Surcharges";
 $lang['return_surcharge']                   = "Return Surcharge";
 $lang['return_amount']                      = "Return Amount";
-$lang['sale_reference']                     = "Sale Reference";
-$lang['return_sale_no']                     = "Return Sale No";
+$lang['sale_reference']                     = "Issue Reference";
+$lang['return_sale_no']                     = "Return Issue No";
 $lang['view_return']                        = "View Return";
 $lang['return_sale_deleted']                = "Return sale successfully deleted";
 $lang['total_before_return']                = "Total Before Return";
@@ -113,7 +113,7 @@ $lang['view_return_details']                = "View Return Details";
 $lang['pay_by_paypal']                      = "Pay by Paypal";
 $lang['pay_by_skrill']                      = "Pay by Skrill";
 $lang['tax_invoice']                        = "TAX INVOICE";
-$lang['sale_x_edited_older_than_x_days']    = "Sale can't be edited as this sale is older than %d days.";
+$lang['sale_x_edited_older_than_x_days']    = "Issue can't be edited as this sale is older than %d days.";
 $lang['use_award_points']                   = "Use Award Points";
 $lang['use_staff_award_points']             = "Use Staff Award Points";
 $lang['use_points']                         = "Use Points";
@@ -125,23 +125,23 @@ $lang['view_gift_card']                     = "View Gift Card";
 $lang['card_expired']                       = "Gift card is already expired";
 $lang['card_is_used']                       = "Gift card us already used";
 $lang['no_delivery_selected']               = "No delivery order selected. Pleas select at least one order.";
-$lang['sale_not_found']                     = "Sale not found.";
+$lang['sale_not_found']                     = "Issue not found.";
 $lang['x_edit_payment']                     = "Payment cannot be edited.";
 $lang['transaction_id']                     = "Transaction ID";
 $lang['return_quantity']                    = "Returned Quantity";
 $lang['return_tip']                         = "Please edit the return quantity below. You can remove the item or set the return quantity to zero if it is not being returned";
 $lang['sale_x_action']                      = "This action can not be performed for sale with a return record";
-$lang['sale_already_returned']              = "Sale already have return record";
-$lang['sale_is_returned']                   = "Sale has return record";
+$lang['sale_already_returned']              = "Issue already have return record";
+$lang['sale_is_returned']                   = "Issue has return record";
 $lang['payment_was_returned']               = "Payment has been returned";
 $lang['packing']                            = "Packing";
 $lang['delivering']                         = "Delivering";
 $lang['delivered']                          = "Delivered";
-$lang['status_is_x_completed']              = "Sale status is not complete, you can add delivery order for completed sales only";
+$lang['status_is_x_completed']              = "Issue status is not complete, you can add delivery order for completed sales only";
 $lang['delivery_already_added']             = "Delivery order already exists for the sale";
 $lang['sale_already_paid']                  = "Payment status is already paid for the sale";
 $lang['topup_gift_card']                    = "Topup Gift Card";
 $lang['last_topups']                        = "Last Topups";
 $lang['topup_added']                        = "Gift card balance successfully updated";
-$lang['duplicate_sale']                     = "Duplicate Sale";
+$lang['duplicate_sale']                     = "Duplicate Issue";
 $lang['update_customer_email']              = "Please update customer email address";
