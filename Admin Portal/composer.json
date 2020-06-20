@@ -1,6 +1,6 @@
 {
-    "name": "tecdiary/sma",
-    "description": "Stock Manager Advance",
+    "name": "srm/FABLAB",
+    "description": "SRM FABLAB ADMIN",
     "type": "project",
     "require": {
         "aferrandini/phpqrcode": "^1.0",
@@ -14,11 +14,11 @@
         "zendframework/zend-barcode": "^2.7",
         "tecdiary/sms": "^1.0.1"
     },
-    "license": "Commercial License",
+    "license": "OK",
     "authors": [
         {
-            "name": "Mian Saleem",
-            "email": "saleem@tecdiary.com"
+            "name": "ABHAY SV",
+            "email": "abhay_sanjay@srmuniv.edu.in"
         }
     ]
 }
